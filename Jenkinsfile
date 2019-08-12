@@ -6,7 +6,7 @@ dir("${WORKSPACE}\\${repoName}"){
 	print "solutionFile : ${solutionFile}"
 	def buildCmd = "MSBuild \"${solutionFile}\""
 		print "Starting build"
-	retCode =  powershell (script: "$buildCmd", returnStatus: true);
+	retCode =  bat (script: "$buildCmd", returnStatus: true);
 	if(retCode != 0){
 		error("Build Failed");
 	}
