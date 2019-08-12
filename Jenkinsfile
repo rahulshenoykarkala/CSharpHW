@@ -1,6 +1,6 @@
 node("master"){
 print "Hello World"
-def WORKSPACE = "C:\\Users\\rshenoy156537\\Desktop\\Techs\\jenkins"
+//def WORKSPACE = "C:\\Users\\rshenoy156537\\Desktop\\Techs\\jenkins"
 def repoName = "CSharpHW"
 print "WS: ${WORKSPACE}"
 dir("${WORKSPACE}\\${repoName}"){
