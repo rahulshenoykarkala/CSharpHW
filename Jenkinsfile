@@ -1,4 +1,4 @@
-node("Test){
+node("Test"){
 print "Hello World"
 def WORKSPACE = "C:\\Users\\rshenoy156537\\Desktop\\Techs\\jenkins"
 def repoName = "CSharpHW"
