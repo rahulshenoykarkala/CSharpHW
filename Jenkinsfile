@@ -1,4 +1,6 @@
 print "Hello World"
+def WORKSPACE = "C:\Users\rshenoy156537\Desktop\Techs\jenkins\"
+def repoName = "CSharpHW"
 dir("${WORKSPACE}\\${repoName}"){
  	def solutionFile = "${WORKSPACE}\\CSharpHW\\CSharpHW.sln"
 	def buildCmd = "MSBuild ${solutionFile}"
